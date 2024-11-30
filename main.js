@@ -13,7 +13,7 @@ btnCalc.addEventListener('click', function() {
     posledniVysledek.push(path);
     output.innerHTML = `Hello ${firstname.value}, your path value based on speed and time is ${path} meters.`
     if (posledniVysledek.length > 1){
-        outputArray.innerHTML = `Your previous answer was ${posledniVysledek[posledniVysledek.length - 2]} meters.`
+        outputArray.innerHTML = `Your previous result was ${posledniVysledek[posledniVysledek.length - 2]} meters.`
     } else {
         outputArray.innerHTML = `No previous results yet.`;
     }
